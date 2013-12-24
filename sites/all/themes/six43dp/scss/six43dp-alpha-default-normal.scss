@@ -1,0 +1,18 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+/*******************************************
+* 3.2.2 Content
+*******************************************/
+#block-views-demo-content-slideshow-block-1 .bx-wrapper {
+    padding-bottom: 0px;
+}
+
+#block-views-demo-content-slideshow-block-1 .event-slider .views-field-nothing {
+    display: none;
+}
+
+.view-collection-products .view-header .collection-terms .view-content .item-list, .view-collection-taxonomy-term .view-header .collection-terms .view-content .item-list {
+    display: none;
+}

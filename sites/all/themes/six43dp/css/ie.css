@@ -1,0 +1,124 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/**************************************************
+* SASS Variables
+**************************************************/
+/* $light_blue: #4763e0; */
+/*******************************************
+* Breakpoints
+*******************************************/
+@media all and (min-width: 980px) {
+  /* tablets and desktop */
+}
+@media all and (max-width: 767px) and (max-width: 979px) {
+  /* phones */
+}
+/*[Table of contents]
+0. Reset
+1. Global
+  1.1. Zones
+  1.2. Regions
+2. Section header
+  2.1. Zone user
+    2.1.1. Region user first
+    2.1.2. Region user second
+  2.2. Zone branding
+  2.3. Zone menu
+  2.4. Zone header
+3. Section content
+  3.1. Zone preface
+  3.2. Zone content
+    3.2.1. Sidebar first
+    3.2.2. Content
+    3.2.3. Sidebar second
+  3.3. Zone postscript
+4. Section footer
+  4.1. Zone footer
+  4.2. Zone footer2
+5. Commerce specific
+  5.1. Search & Collection page
+  5.2. All products page
+  5.3. Product page
+  5.4. Checkout process
+6. Kickstart specific
+  6.1. Homepage elements
+7. Blog
+  7.1. Blog comments
+8. User account
+------------------------------------------------*/
+/**************************************************
+* 1. Global
+**************************************************/
+/* line 60, ../scss/global.scss */
+body {
+  background: #e5e5e5;
+}
+
+/**********************************************
+* 2.2. Zone branding
+**********************************************/
+/* line 67, ../scss/global.scss */
+#zone-branding-wrapper.zone-wrapper.zone-branding-wrapper.clearfix {
+  background-image: -webkit-linear-gradient(#000080, #e5e5e5);
+  background-image: -moz-linear-gradient(#000080, #e5e5e5);
+  background-image: -o-linear-gradient(#000080, #e5e5e5);
+  background-image: linear-gradient(#000080, #e5e5e5);
+}
+
+/* line 71, ../scss/global.scss */
+.site-slogan {
+  font-size: 0.9em;
+}
+
+/*******************************************
+* 3.3 Zone Postscript
+*******************************************/
+/**
+* Blocks
+*/
+/* line 81, ../scss/global.scss */
+.quote-block {
+  border: 7px solid #b5b5b5;
+  padding: 7px;
+}
+
+/* line 87, ../scss/global.scss */
+#block-views-nyy-news-aggregator-block,
+#block-views-frequency-block {
+  border: 7px solid #b5b5b5;
+  padding: 7px;
+}
+
+/* line 92, ../scss/global.scss */
+article p:last-child {
+  margin-bottom: -20px;
+}
+
+/* line 96, ../scss/global.scss */
+#block-views-nyy-news-aggregator-block h2.block-title {
+  margin-bottom: 10px;
+}
+
+/* line 100, ../scss/global.scss */
+.nyy-aggregator .item-list li {
+  margin-left: 2px;
+  margin-bottom: -8px;
+  line-height: 100%;
+  font-size: 1em;
+}
+
+/* line 107, ../scss/global.scss */
+.front .node {
+  border: 1px solid #E0E3E6;
+  display: block;
+  margin: 15px 0;
+  padding: 5px 5px;
+  width: auto;
+}
+
+/* line 115, ../scss/global.scss */
+.views-field-timestamp {
+  font-size: 0.8em;
+  color: gray;
+  padding-bottom: 1.0em;
+}

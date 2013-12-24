@@ -1,0 +1,257 @@
+@import url(fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
+@import url(fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+/* @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
+@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700); */
+/* Include Default Variables & Mixins */
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/**************************************************
+* SASS Variables
+**************************************************/
+/* $light_blue: #4763e0; */
+/*******************************************
+* Breakpoints
+*******************************************/
+@media all and (min-width: 980px) {
+  /* tablets and desktop */
+}
+@media all and (max-width: 767px) and (max-width: 979px) {
+  /* phones */
+}
+/*[Table of contents]
+0. Reset
+1. Global
+  1.1. Zones
+  1.2. Regions
+2. Section header
+  2.1. Zone user
+    2.1.1. Region user first
+    2.1.2. Region user second
+  2.2. Zone branding
+  2.3. Zone menu
+  2.4. Zone header
+3. Section content
+  3.1. Zone preface
+  3.2. Zone content
+    3.2.1. Sidebar first
+    3.2.2. Content
+    3.2.3. Sidebar second
+  3.3. Zone postscript
+4. Section footer
+  4.1. Zone footer
+  4.2. Zone footer2
+5. Commerce specific
+  5.1. Search & Collection page
+  5.2. All products page
+  5.3. Product page
+  5.4. Checkout process
+6. Kickstart specific
+  6.1. Homepage elements
+7. Blog
+  7.1. Blog comments
+8. User account
+------------------------------------------------*/
+/**************************************************
+* 1. Global
+**************************************************/
+/* line 65, ../scss/six43dp_style.scss */
+body {
+  background: #e3e3e3;
+}
+
+/**********************************************
+* 2.2. Zone branding
+**********************************************/
+/* line 72, ../scss/six43dp_style.scss */
+#zone-branding-wrapper.zone-wrapper.zone-branding-wrapper.clearfix {
+  background-image: -webkit-linear-gradient(#000080, #e5e5e5);
+  background-image: -moz-linear-gradient(#000080, #e5e5e5);
+  background-image: -o-linear-gradient(#000080, #e5e5e5);
+  background-image: linear-gradient(#000080, #e5e5e5);
+}
+
+/* line 76, ../scss/six43dp_style.scss */
+.zone-content-wrapper .zone-content {
+  background-color: #FFFFFF;
+}
+
+/* line 80, ../scss/six43dp_style.scss */
+.site-slogan {
+  font-size: 0.9em;
+}
+
+/* line 84, ../scss/six43dp_style.scss */
+#block-views-exp-display-products-page {
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+/* line 89, ../scss/six43dp_style.scss */
+.zone-branding .region-branding .logo-img {
+  text-align: left;
+}
+
+/**********************************************
+* 2.3. Zone menu
+**********************************************/
+/**
+* Navigation
+
+.menu-toggle {
+  background: #666;
+  @include rounded-corners(3px);
+  clip: inherit;
+  display: block;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 10px; // LTR
+  top: -46px;
+  width: 36px;
+  z-index:-99;
+
+  &:hover {
+    background: #777;
+  }
+
+  .toggle-help {
+    color: #999;
+    font-family: $headerfont;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 10px 0;
+    position: absolute;
+    left: 45px; // LTR 
+    top: 6px;
+  }
+  .line {
+    border-bottom: 2px solid #CCC;
+    display: block;
+    margin: 4px auto 4px auto;
+    width: 26px;
+  }
+  .first-line {
+    padding-top: 4px;
+  }
+  .last-line {
+    padding-bottom: 0;
+  }
+}
+*/
+/*******************************************
+* 3.2 Content
+*******************************************/
+/* line 146, ../scss/six43dp_style.scss */
+#first-time {
+  display: none;
+}
+
+/* line 150, ../scss/six43dp_style.scss */
+#edit-attributes-field-condi-7--4 {
+  clear: both;
+  float: left;
+}
+
+/* line 154, ../scss/six43dp_style.scss */
+#block-views-demo-content-slideshow-block-1 .event-slider .views-field-nothing, #block-views-demo-content-slideshow-block-1 .view-display-id-block_1 .bx-prev, #block-views-demo-content-slideshow-block-1 .view-display-id-block_1 .bx-next {
+  display: none;
+}
+
+/*******************************************
+* 3.2.1 Sidebar First
+*******************************************/
+/* line 162, ../scss/six43dp_style.scss */
+.region-sidebar-first .block-facetapi {
+  border-top: 1px solid #000000;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* line 170, ../scss/six43dp_style.scss */
+.view-collection-products .view-content .item-list .products-per-collection li.views-row, .view-collection-taxonomy-term .view-content .item-list .products-per-collection li.views-row {
+  margin-left: 0;
+}
+
+/* line 174, ../scss/six43dp_style.scss */
+.region-sidebar-first .block-facetapi h2 {
+  padding-bottom: 0%;
+}
+
+/* line 177, ../scss/six43dp_style.scss */
+.region-sidebar-first .block-facetapi ul li a {
+  font-size: 0.9em;
+}
+
+/* line 180, ../scss/six43dp_style.scss */
+.region-sidebar-first .block-facetapi ul li a.facetapi-inactive {
+  padding-left: 2px;
+}
+
+/*******************************************
+* 3.2.2 Content
+*******************************************/
+/* line 188, ../scss/six43dp_style.scss */
+.view-display-id-block_1 {
+  height: 100%;
+}
+
+/* line 192, ../scss/six43dp_style.scss */
+#block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-window, #block-views-demo-content-slideshow-block-1 .bx-wrapper .bx-viewport {
+  /* display: none; */
+}
+
+/*******************************************
+* 3.3 Zone Postscript
+*******************************************/
+/**
+* Blocks
+*/
+/* line 203, ../scss/six43dp_style.scss */
+#region-postscript-second,
+.front-block {
+  border: 10px solid white;
+  padding: 8px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 211, ../scss/six43dp_style.scss */
+article p:last-child {
+  margin-bottom: -20px;
+}
+
+/* line 215, ../scss/six43dp_style.scss */
+#block-views-nyy-news-aggregator-block h2.block-title {
+  margin-bottom: 10px;
+}
+
+/* line 219, ../scss/six43dp_style.scss */
+.nyy-aggregator .item-list li {
+  margin-left: 2px;
+  margin-bottom: -8px;
+  line-height: 100%;
+  font-size: 1em;
+}
+
+/* line 226, ../scss/six43dp_style.scss */
+.front .node {
+  border: 1px solid #E0E3E6;
+  display: block;
+  margin: 15px 0;
+  padding: 5px 5px;
+  width: auto;
+}
+
+/* line 234, ../scss/six43dp_style.scss */
+.views-field-timestamp {
+  font-size: 0.8em;
+  color: gray;
+  padding-bottom: 1.0em;
+}
