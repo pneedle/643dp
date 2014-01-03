@@ -206,13 +206,33 @@ body {
   /* display: none; */
 }
 
+/* line 196, ../scss/six43dp_style.scss */
+#quiz-view-table {
+  border: thin solid #555555;
+  border-collapse: separate;
+  margin: 30px 0;
+  padding: 10px;
+  width: auto;
+}
+
+/* line 204, ../scss/six43dp_style.scss */
+article p:last-child {
+  margin-bottom: -10px;
+  margin-top: 20px;
+}
+
+/* line 209, ../scss/six43dp_style.scss */
+.submitted {
+  display: none;
+}
+
 /*******************************************
 * 3.3 Zone Postscript
 *******************************************/
 /**
 * Blocks
 */
-/* line 203, ../scss/six43dp_style.scss */
+/* line 219, ../scss/six43dp_style.scss */
 #region-postscript-second,
 .front-block {
   border: 10px solid white;
@@ -222,17 +242,17 @@ body {
   margin-right: 0px;
 }
 
-/* line 211, ../scss/six43dp_style.scss */
+/* line 227, ../scss/six43dp_style.scss */
 article p:last-child {
   margin-bottom: -20px;
 }
 
-/* line 215, ../scss/six43dp_style.scss */
+/* line 231, ../scss/six43dp_style.scss */
 #block-views-nyy-news-aggregator-block h2.block-title {
   margin-bottom: 10px;
 }
 
-/* line 219, ../scss/six43dp_style.scss */
+/* line 235, ../scss/six43dp_style.scss */
 .nyy-aggregator .item-list li {
   margin-left: 2px;
   margin-bottom: -8px;
@@ -240,7 +260,7 @@ article p:last-child {
   font-size: 1em;
 }
 
-/* line 226, ../scss/six43dp_style.scss */
+/* line 242, ../scss/six43dp_style.scss */
 .front .node {
   border: 1px solid #E0E3E6;
   display: block;
@@ -249,7 +269,7 @@ article p:last-child {
   width: auto;
 }
 
-/* line 234, ../scss/six43dp_style.scss */
+/* line 250, ../scss/six43dp_style.scss */
 .views-field-timestamp {
   font-size: 0.8em;
   color: gray;

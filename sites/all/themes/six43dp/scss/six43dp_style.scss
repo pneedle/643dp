@@ -193,6 +193,22 @@ body {
     /* display: none; */
 }
 
+#quiz-view-table {
+    border: thin solid #555555;
+    border-collapse: separate;
+    margin: 30px 0;
+    padding: 10px;
+    width: auto;
+}
+
+article p:last-child {
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.submitted {
+	display: none;
+}
 /*******************************************
 * 3.3 Zone Postscript
 *******************************************/
